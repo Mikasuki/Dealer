@@ -1,0 +1,56 @@
+/* 
+    Created on : Aug 18, 2016, 2:54:50 PM
+    Author     : Jonathan
+*/
+
+body, html {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: auto;
+    font-family: 'Trebuchet MS';
+}
+
+header{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: auto;
+}
+#myimg {
+        background-image: url("../Images/logo.png");
+        background-repeat: no-repeat;
+        height:556px;
+        width:640px;
+}
+
+title#mylogo{
+    background-image: url("../Images/logo.png");
+    background-repeat: no-repeat;
+    height:auto;
+    width:auto;
+}
+
+body#background{
+    background-image: url("../Images/maxresdefault.jpg");
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    -moz-background-repeat: no-repeat;
+    -moz-background-size: cover;
+}
+
+.WebContainer{
+    width: 100%;
+    height: auto;
+}
+.articles{
+    width:90%; /*Takes 90% width from WebContainer*/
+    height: auto;
+    margin: auto;
+} 
+
+.Container {
+    width: 90%;
+    min-width: 500px;
+    margin: auto;
+}
